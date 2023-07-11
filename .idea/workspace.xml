@@ -162,6 +162,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688982192530</updated>
     </task>
+    <task id="LOCAL-00001" summary="card image view  part 4">
+      <created>1689080462566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689080462566</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="card image view  part 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="card image view  part 4" />
   </component>
 </project>
