@@ -49,76 +49,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Box(modifier = Modifier
-                .fillMaxWidth(.5f)
-                .padding(15.dp)) {
 
-                var title="Kermit playing in the Snow "
-                var imageDescription="Kermit playing in the Snow "
-                var painter= painterResource(id = R.drawable.kermit)
-
-                ImageCard(painter = painter, imageDesscriptionL = imageDescription, title =title)
-
-            }
-
-
-
-
+//888
     }
 }
-}
-
-@Composable
-fun ImageCard(
-    painter:Painter,
-    imageDesscriptionL:String,
-    title:String,
-    modifier:Modifier=Modifier
-){
-
-    Card(
-
-        modifier = modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(15.dp)
-
-
-    ) {
-        Box(modifier =  Modifier.height(200.dp)) {
-
-            Image(painter = painter, contentDescription =imageDesscriptionL, contentScale = ContentScale.Crop )
-
-
-            Box(modifier = Modifier.fillMaxSize()
-                .background(brush = Brush.verticalGradient(
-                    colors = listOf(
-                        Color.Transparent,
-                        Color.Black
-                    ),
-                    startY = 300f
-
-
-                ))
-            )
-
-            Box(modifier= Modifier
-                .fillMaxSize()
-                .padding(16.dp), contentAlignment = Alignment.BottomStart)
-            {
-
-                Text(text = title, style = TextStyle(Color.White, fontSize = 16.sp))
-                //test
-                //456
-                //test3
-                //test4
-            }
-
-        }
-
-
-
-
-
-    }
-
-
 }

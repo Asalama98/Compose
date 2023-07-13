@@ -178,12 +178,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689081140523</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test 4">
+      <created>1689081276702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689081276702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="card image view  part 4" />
     <MESSAGE value="test 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 3" />
+    <MESSAGE value="test 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 4" />
   </component>
 </project>
